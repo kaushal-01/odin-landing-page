@@ -1,0 +1,150 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* Header  */
+
+header {
+  background-color: #1f2937;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0px;
+  width: 75%;
+  margin: 0px auto;
+}
+
+nav img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+
+nav ul {
+  color: #e5e7eb;
+  font-size: 18px;
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0px 40px;
+}
+
+head-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0px;
+  width: 75%;
+  margin: 0px auto;
+}
+
+head-bottom img {
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  margin-top: -50px;
+  margin-right: 115px;
+}
+
+head-left h1 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+head-left p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 15px 0px;
+}
+
+head-left button {
+  background-color: #3882f6;
+  margin-top: 5px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: #f9faf8;
+}
+
+/* Section: id="sectionWithImages">  */
+
+Section {
+  padding: 35px 75px;
+  display: flex;
+  flex-direction: column;
+}
+
+#sectionWithImages h1 {
+  font-size: 36px;
+  color: #1f2937;
+  text-align: center;
+}
+
+#sectionWithImages > div {
+  display: flex;
+}
+
+.four-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+#sectionWithImages img {
+  width: 250px;
+  height: 250px;
+  margin: 20px 0px 10px 0px;
+}
+
+/* Section: big-quote */
+
+#big-quote {
+  background-color: #e5e7eb;
+  padding: 40px 85px;
+  font-size: 25px;
+}
+
+#big-quote h3 {
+  margin-left: auto;
+}
+
+/* Section: Call for action */
+
+#callForAction {
+  background-color: #3882f6;
+  padding: 20px;
+  border-radius: 10px;
+  color: #f9faf8;
+}
+
+#paraWithButton {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  color: #e5e7eb;
+}
+
+#paraWithButton button {
+  background-color: #3882f6;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid #f9faf8;
+  color: #f9faf8;
+  padding: 5px 10px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 25px 0px;
+}
